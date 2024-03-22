@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div class="row">
-      <!-- Iterate over the products array and render each product -->
       <div class="col-md-4" v-for="(product, index) in products" :key="index">
         <div class="product d-flex flex-column">
           <div>
